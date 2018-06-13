@@ -5,7 +5,7 @@
 layout:     post
 source:     Purdue OWL
 source_url: https://owl.english.purdue.edu/owl/owlprint/539/
-title:      Constructions that may signal passive voice
+title:      Passive voice
 date:       2018-06-12 21:35:00
 categories: writing
 ---
