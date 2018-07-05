@@ -8,6 +8,7 @@ from .check import Check
 
 class TestCheck(Check):
     """The test class for passive_voice.passive_voice."""
+
     __test__ = True
 
     @property
