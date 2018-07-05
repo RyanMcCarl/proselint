@@ -6,7 +6,6 @@ from .check import Check
 from proselint.checks.passive_voice import passive_voice as chk
 
 
-
 class TestCheck(Check):
     """The test class for passive_voice.passive_voice."""
     __test__ = True

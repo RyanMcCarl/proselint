@@ -25,7 +25,7 @@ def check(text):
     """Check for constructions that may signal passive voice."""
     err = "passive_voice.passive_voice"
     msg = u"Check this sentence for passive voice; " +
-            "active voice is usually better."
+        "active voice is usually better."
     regex = r"(\b(?:be|am|is|are|was|were|have|has|had|get)" +
     r"\b[\w\s]{,15}?(?:d|(?<!whe)n|ne|left|being|made)\b(?: by\b)?)"
 
