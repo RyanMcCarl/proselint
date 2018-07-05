@@ -1,4 +1,4 @@
-"""Tests for passive_voice.passive_voice check"""
+"""Tests for passive_voice.passive_voice check."""
 from __future__ import absolute_import
 
 from proselint.checks.passive_voice import passive_voice as chk
