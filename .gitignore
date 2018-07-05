@@ -51,6 +51,7 @@ bin-debug
 *.launch
 
 *.pyc
+__pycache__
 __pycache__/*
 .python-version
 .ruby-version
