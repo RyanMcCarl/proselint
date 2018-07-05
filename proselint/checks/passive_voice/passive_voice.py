@@ -16,8 +16,7 @@ categories: writing
 Check for constructions that may signal passive voice.
 
 """
-import re
-from proselint.tools import preferred_forms_check, existence_check, memoize
+from proselint.tools import existence_check, memoize
 
 
 @memoize
@@ -27,7 +26,7 @@ def check(text):
     msg = u"Check this sentence for passive voice; " +\
         "active voice is usually better."
     regex = r"(\b(?:be|am|is|are|was|were|have|has|had|get)" +\
-    r"\b[\w\s]{,15}?(?:d|(?<!whe)n|ne|left|being|made)\b(?: by\b)?)"
+        r"\b[\w\s]{,15}?(?:d|(?<!whe)n|ne|left|being|made)\b(?: by\b)?)"
 
     return existence_check(text, [regex], err, msg,
                            require_padding=False, offset=0)
