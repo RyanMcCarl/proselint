@@ -1,3 +1,4 @@
 {
-  "tests/test_passive_voice.py": true
+  "tests/test_passive_voice.py::Check": true,
+  "tests/test_passive_voice.py::TestCheck": true
 }
