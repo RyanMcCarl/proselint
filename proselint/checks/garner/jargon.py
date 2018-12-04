@@ -41,6 +41,7 @@ def check(text):
         "shall",
         "such",
         "to same",
+        "Whereas",
         "whereas",
         "witnesseth",
     ]

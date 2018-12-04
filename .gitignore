@@ -7,7 +7,7 @@
 *.o
 *.so
 *.pycache
-
+*.pyc
 
 # Packages #
 ############
@@ -60,6 +60,7 @@ __pycache__/*
 *.rbenv-gemsets
 pyvenv.cfg
 *cache*
+
 ### Proselint ###
 proselint/__pycache__/*
 proselint/__pycache__
