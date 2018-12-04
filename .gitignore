@@ -6,6 +6,8 @@
 *.exe
 *.o
 *.so
+*.pycache
+
 
 # Packages #
 ############
@@ -51,13 +53,17 @@ bin-debug
 *.launch
 
 *.pyc
-__pycache__
+*pycache*
 __pycache__/*
 .python-version
 .ruby-version
 *.rbenv-gemsets
 pyvenv.cfg
 *cache*
+### Proselint ###
+proselint/__pycache__/*
+proselint/__pycache__
+test.txt
 
 ### Xcode ###
 build/
