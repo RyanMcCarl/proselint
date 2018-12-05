@@ -1,4 +1,4 @@
-"""Tests for passive_voice.passive_voice check."""
+"""Tests for garner.jargon check."""
 from __future__ import absolute_import
 
 from proselint.checks.garner import jargon as chk

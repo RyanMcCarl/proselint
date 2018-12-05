@@ -62,9 +62,10 @@ pyvenv.cfg
 *cache*
 
 ### Proselint ###
+demofiles/*
+research/Passi*
 proselint/__pycache__/*
 proselint/__pycache__
-test.txt
 
 ### Xcode ###
 build/

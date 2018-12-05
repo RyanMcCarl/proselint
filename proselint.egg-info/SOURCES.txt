@@ -42,7 +42,6 @@ proselint/checks/dates_times/__init__.py
 proselint/checks/dates_times/am_pm.py
 proselint/checks/dates_times/dates.py
 proselint/checks/garner/__init__.py
-proselint/checks/garner/doublets.py
 proselint/checks/garner/jargon.py
 proselint/checks/garner/substitutions.py
 proselint/checks/hedging/__init__.py

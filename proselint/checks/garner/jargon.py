@@ -18,20 +18,27 @@ categories: writing
 ---
 
 """
+from proselint.tools import memoize, existence_check
+
 
 @memoize
 def check(text):
     """Check the text."""
     err = "garner.jargon"
-    msg = u"'{}' may be jargon or legalese. Consider replacing it."
+    msg = u"""'{}' may be jargon, legalese, or a redundancy."""
 
     jargon = [
+
         "acknowledge same",
+        "aid and abet",
+        "aid and comfort"
         "and/or",
         "conclusory",
         "deem",
+        "each and every",
         "for same",
         "herein",
+        "one and only",
         "provided that",
         "pursuant to",
         "said agreement",
@@ -45,5 +52,6 @@ def check(text):
         "whereas",
         "witnesseth",
     ]
+
 
     return existence_check(text, jargon, err, msg, join=True)
