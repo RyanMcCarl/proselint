@@ -60,6 +60,10 @@ proselint/checks/links/__init__.py
 proselint/checks/links/broken.py
 proselint/checks/malapropisms/__init__.py
 proselint/checks/malapropisms/misc.py
+proselint/checks/mccarl/__init__.py
+proselint/checks/mccarl/rm_spelling.py
+proselint/checks/mccarl/rm_style_exist_check.py
+proselint/checks/mccarl/rm_style_pref_forms.py
 proselint/checks/misc/__init__.py
 proselint/checks/misc/apologizing.py
 proselint/checks/misc/back_formations.py
