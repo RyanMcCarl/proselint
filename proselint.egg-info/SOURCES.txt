@@ -13,6 +13,7 @@ proselint/score.py
 proselint/tools.py
 proselint/version.py
 proselint.egg-info/PKG-INFO
+proselint.egg-info/SOURCES (Ryan McCarl's conflicted copy 2019-03-23).txt
 proselint.egg-info/SOURCES.txt
 proselint.egg-info/dependency_links.txt
 proselint.egg-info/entry_points.txt
