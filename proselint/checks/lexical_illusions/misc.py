@@ -21,11 +21,6 @@ def check(text):
     """Check the text."""
     err = "lexical_illusions.misc"
     msg = u"There's a lexical illusion here: a word is repeated."
+    regex = r"\b(\w+)\b\s\1"
 
-    list = [
-        r"the\sthe",
-        r"am\sam",
-        r"has\shas"
-    ]
-
-    return existence_check(text, list, err, msg)
+    return existence_check(text, [regex], err, msg)
