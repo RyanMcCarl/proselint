@@ -22,6 +22,7 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
+          cache-version: 1
       - name: "[EXEC] Run Danger"
         run: bundle exec danger
         env:
